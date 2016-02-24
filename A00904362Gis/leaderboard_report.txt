@@ -1,0 +1,15 @@
+Games Report
+-----------------------------------------------------------------------------
+ Win:Loss     Game Name              Gamertag               Platform    
+-----------------------------------------------------------------------------
+ 0:1          Colour Demon           VolcanoBrawler         PC          
+ 1:1          Colour Demon           Redstripe              PC          
+ 1:0          Number Picker          Redstripe              PC          
+ 1:0          Number Picker          TorpedoBear            PC          
+ 0:2          Number Picker          VolcanoBrawler         PC          
+ 0:1          Quick Fingers          VolcanoBrawler         PC          
+ 1:0          Quick Fingers          Redstripe              PC          
+-----------------------------------------------------------------------------
+Colour Demon             3    
+Number Picker            4    
+Quick Fingers            2    
