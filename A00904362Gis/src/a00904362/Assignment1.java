@@ -36,7 +36,6 @@ import a00904362.data.io.PlayerReader;
 import a00904362.data.io.PlayersResultsReport;
 import a00904362.data.io.ResultsReport;
 import a00904362.data.io.ScoreReader;
-import a00904362.utils.CollectionUtil;
 import a00904362.utils.MiscUtil;
 import a00904362.utils.ResultsSorter;
 
@@ -180,7 +179,7 @@ public class Assignment1 {
 			LOG.debug(res);
 		}
 		LOG.debug("Initial list. Size: " + results.size());
-		CollectionUtil.display(results);
+		// CollectionUtil.display(results);
 	}
 
 	/**
