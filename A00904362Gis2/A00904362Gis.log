@@ -1,0 +1,440 @@
+2016-04-01 11:39:31,957 INFO  a00904362.Gis  - Starting Assignment 2
+2016-04-01 11:39:31,965 INFO  a00904362.Gis  - 2016-04-01T18:39:31.964Z
+2016-04-01 11:39:32,186 DEBUG a00904362.data.db.Database  - Loading database properties from db.properties
+2016-04-01 11:39:32,426 DEBUG a00904362.data.db.Database  - Driver loaded 
+2016-04-01 11:39:33,688 DEBUG a00904362.data.db.Database  - Database connected Microsoft SQL Server
+2016-04-01 11:39:33,809 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.PlayerDao
+2016-04-01 11:39:33,914 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.PersonaDao
+2016-04-01 11:39:33,961 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.GameDao
+2016-04-01 11:39:34,024 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.ScoreDao
+2016-04-01 11:39:34,591 DEBUG a00904362.Gis  - Player [id=1, firstname=Fish, lasttname=Fred, email=fredfish@gamer.net]
+2016-04-01 11:39:34,592 DEBUG a00904362.Gis  - Player [id=2, firstname=Nash, lasttname=Laurie, email=laurieeenash@gmail.com]
+2016-04-01 11:39:34,593 DEBUG a00904362.Gis  - Player [id=3, firstname=Washington1, lasttname=Conrad1, email=fredfish@gamer.net]
+2016-04-01 11:39:34,593 DEBUG a00904362.Gis  - Player [id=4, firstname=Price, lasttname=Jeanette, email=priceizrite@hotmail.com]
+2016-04-01 11:39:34,594 DEBUG a00904362.Gis  - Player [id=5, firstname=Chan, lasttname=Mark, email=mchan@oneminutemail.com]
+2016-04-01 11:39:34,719 DEBUG a00904362.Gis  - Game [id=CODE, name=Colour Demon, producer=Magenta Boxer]
+2016-04-01 11:39:34,720 DEBUG a00904362.Gis  - Game [id=NUPI, name=Number Picker, producer=Random Numburrs]
+2016-04-01 11:39:34,722 DEBUG a00904362.Gis  - Game [id=QUFI, name=Quick Fingers, producer=Digitology]
+2016-04-01 11:39:34,864 DEBUG a00904362.Gis  - [Score [persona_id=1, game_id=QUFI, result=LOSE], Score [persona_id=1, game_id=QUFI, result=WIN], Score [persona_id=2, game_id=CODE, result=WIN], Score [persona_id=2, game_id=CODE, result=WIN], Score [persona_id=3, game_id=QUFI, result=LOSE], Score [persona_id=3, game_id=QUFI, result=WIN], Score [persona_id=3, game_id=QUFI, result=WIN], Score [persona_id=4, game_id=QUFI, result=WIN], Score [persona_id=4, game_id=NUPI, result=LOSE], Score [persona_id=4, game_id=CODE, result=LOSE], Score [persona_id=5, game_id=QUFI, result=WIN], Score [persona_id=5, game_id=CODE, result=LOSE], Score [persona_id=5, game_id=NUPI, result=WIN], Score [persona_id=5, game_id=CODE, result=WIN], Score [persona_id=6, game_id=QUFI, result=WIN], Score [persona_id=7, game_id=NUPI, result=WIN], Score [persona_id=7, game_id=CODE, result=WIN], Score [persona_id=8, game_id=QUFI, result=LOSE], Score [persona_id=8, game_id=NUPI, result=LOSE], Score [persona_id=8, game_id=NUPI, result=LOSE], Score [persona_id=8, game_id=CODE, result=LOSE], Score [persona_id=9, game_id=QUFI, result=LOSE], Score [persona_id=10, game_id=NUPI, result=WIN], Score [persona_id=11, game_id=NUPI, result=WIN], Score [persona_id=11, game_id=NUPI, result=LOSE]]
+2016-04-01 11:39:35,001 DEBUG a00904362.Gis  - Persona [id=1, player_id=1, gametag=Ithroeann, platform=IO]
+2016-04-01 11:39:35,002 DEBUG a00904362.Gis  - Persona [id=2, player_id=1, gametag=Cirronith, platform=PS]
+2016-04-01 11:39:35,003 DEBUG a00904362.Gis  - Persona [id=3, player_id=1, gametag=Deathstar, platform=IO]
+2016-04-01 11:39:35,003 DEBUG a00904362.Gis  - Persona [id=4, player_id=2, gametag=Mazzzap, platform=AN]
+2016-04-01 11:39:35,005 DEBUG a00904362.Gis  - Persona [id=5, player_id=2, gametag=Redstripe, platform=PC]
+2016-04-01 11:39:35,006 DEBUG a00904362.Gis  - Persona [id=6, player_id=3, gametag=Crayonbreath, platform=PS]
+2016-04-01 11:39:35,008 DEBUG a00904362.Gis  - Persona [id=7, player_id=4, gametag=Quinesia, platform=XB]
+2016-04-01 11:39:35,009 DEBUG a00904362.Gis  - Persona [id=8, player_id=4, gametag=VolcanoBrawler, platform=PC]
+2016-04-01 11:39:35,011 DEBUG a00904362.Gis  - Persona [id=9, player_id=5, gametag=CastleRock, platform=XB]
+2016-04-01 11:39:35,013 DEBUG a00904362.Gis  - Persona [id=10, player_id=5, gametag=TorpedoBear, platform=PC]
+2016-04-01 11:39:35,026 DEBUG a00904362.Gis  - Persona [id=11, player_id=5, gametag=GreenPanda, platform=AN]
+2016-04-01 11:39:35,028 DEBUG a00904362.Gis  - gametags- [CastleRock, Cirronith, Crayonbreath, Deathstar, GreenPanda, Ithroeann, Mazzzap, Quinesia, Redstripe, TorpedoBear, VolcanoBrawler]
+2016-04-01 11:39:35,060 DEBUG a00904362.Gis  - Result [persona_id=6, game_id=QUFI, gameName=Quick Fingers, gameTag=Crayonbreath, platform=PS, win=1, loss=0, total=1, scorestr=1:0player_id=3]
+2016-04-01 11:39:35,062 DEBUG a00904362.Gis  - Result [persona_id=9, game_id=QUFI, gameName=Quick Fingers, gameTag=CastleRock, platform=XB, win=0, loss=1, total=1, scorestr=0:1player_id=5]
+2016-04-01 11:39:35,063 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=QUFI, gameName=Quick Fingers, gameTag=VolcanoBrawler, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 11:39:35,063 DEBUG a00904362.Gis  - Result [persona_id=3, game_id=QUFI, gameName=Quick Fingers, gameTag=Deathstar, platform=IO, win=2, loss=1, total=3, scorestr=2:1player_id=1]
+2016-04-01 11:39:35,064 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=QUFI, gameName=Quick Fingers, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 11:39:35,065 DEBUG a00904362.Gis  - Result [persona_id=2, game_id=CODE, gameName=Colour Demon, gameTag=Cirronith, platform=PS, win=2, loss=0, total=2, scorestr=2:0player_id=1]
+2016-04-01 11:39:35,066 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=QUFI, gameName=Quick Fingers, gameTag=Mazzzap, platform=AN, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 11:39:35,066 DEBUG a00904362.Gis  - Result [persona_id=1, game_id=QUFI, gameName=Quick Fingers, gameTag=Ithroeann, platform=IO, win=1, loss=1, total=2, scorestr=1:1player_id=1]
+2016-04-01 11:39:35,067 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=CODE, gameName=Colour Demon, gameTag=VolcanoBrawler, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 11:39:35,068 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=CODE, gameName=Colour Demon, gameTag=Redstripe, platform=PC, win=1, loss=1, total=2, scorestr=1:1player_id=2]
+2016-04-01 11:39:35,069 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=CODE, gameName=Colour Demon, gameTag=Mazzzap, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 11:39:35,070 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=CODE, gameName=Colour Demon, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 11:39:35,071 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=NUPI, gameName=Number Picker, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 11:39:35,073 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=NUPI, gameName=Number Picker, gameTag=Mazzzap, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 11:39:35,074 DEBUG a00904362.Gis  - Result [persona_id=10, game_id=NUPI, gameName=Number Picker, gameTag=TorpedoBear, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=5]
+2016-04-01 11:39:35,075 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=NUPI, gameName=Number Picker, gameTag=VolcanoBrawler, platform=PC, win=0, loss=2, total=2, scorestr=0:2player_id=4]
+2016-04-01 11:39:35,076 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=NUPI, gameName=Number Picker, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 11:39:35,077 DEBUG a00904362.Gis  - Result [persona_id=11, game_id=NUPI, gameName=Number Picker, gameTag=GreenPanda, platform=AN, win=1, loss=1, total=2, scorestr=1:1player_id=5]
+2016-04-01 11:39:35,078 DEBUG a00904362.Gis  - Initial list. Size: 18
+2016-04-01 11:39:35,878 DEBUG a00904362.ui.MainFrame  - a00904362.ui.MainFrame
+2016-04-01 11:40:08,132 DEBUG a00904362.Gis  - Result [persona_id=6, game_id=QUFI, gameName=Quick Fingers, gameTag=Crayonbreath, platform=PS, win=1, loss=0, total=1, scorestr=1:0player_id=3]
+2016-04-01 11:40:08,133 DEBUG a00904362.Gis  - Result [persona_id=9, game_id=QUFI, gameName=Quick Fingers, gameTag=CastleRock1, platform=XB, win=0, loss=1, total=1, scorestr=0:1player_id=5]
+2016-04-01 11:40:08,151 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=QUFI, gameName=Quick Fingers, gameTag=VolcanoBrawler, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 11:40:08,152 DEBUG a00904362.Gis  - Result [persona_id=3, game_id=QUFI, gameName=Quick Fingers, gameTag=Deathstar, platform=IO, win=2, loss=1, total=3, scorestr=2:1player_id=1]
+2016-04-01 11:40:08,153 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=QUFI, gameName=Quick Fingers, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 11:40:08,154 DEBUG a00904362.Gis  - Result [persona_id=2, game_id=CODE, gameName=Colour Demon, gameTag=Cirronith, platform=PS, win=2, loss=0, total=2, scorestr=2:0player_id=1]
+2016-04-01 11:40:08,155 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=QUFI, gameName=Quick Fingers, gameTag=Mazzzap, platform=AN, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 11:40:08,156 DEBUG a00904362.Gis  - Result [persona_id=1, game_id=QUFI, gameName=Quick Fingers, gameTag=Ithroeann, platform=IO, win=1, loss=1, total=2, scorestr=1:1player_id=1]
+2016-04-01 11:40:08,157 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=CODE, gameName=Colour Demon, gameTag=VolcanoBrawler, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 11:40:08,158 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=CODE, gameName=Colour Demon, gameTag=Redstripe, platform=PC, win=1, loss=1, total=2, scorestr=1:1player_id=2]
+2016-04-01 11:40:08,158 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=CODE, gameName=Colour Demon, gameTag=Mazzzap, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 11:40:08,159 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=CODE, gameName=Colour Demon, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 11:40:08,160 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=NUPI, gameName=Number Picker, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 11:40:08,161 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=NUPI, gameName=Number Picker, gameTag=Mazzzap, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 11:40:08,163 DEBUG a00904362.Gis  - Result [persona_id=10, game_id=NUPI, gameName=Number Picker, gameTag=TorpedoBear, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=5]
+2016-04-01 11:40:08,164 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=NUPI, gameName=Number Picker, gameTag=VolcanoBrawler, platform=PC, win=0, loss=2, total=2, scorestr=0:2player_id=4]
+2016-04-01 11:40:08,165 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=NUPI, gameName=Number Picker, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 11:40:08,166 DEBUG a00904362.Gis  - Result [persona_id=11, game_id=NUPI, gameName=Number Picker, gameTag=GreenPanda, platform=AN, win=1, loss=1, total=2, scorestr=1:1player_id=5]
+2016-04-01 11:40:08,167 DEBUG a00904362.Gis  - Initial list. Size: 18
+2016-04-01 11:40:08,168 DEBUG a00904362.Gis  - gametags- [CastleRock1, Cirronith, Crayonbreath, Deathstar, GreenPanda, Ithroeann, Mazzzap, Quinesia, Redstripe, TorpedoBear, VolcanoBrawler]
+2016-04-01 11:40:15,411 INFO  a00904362.data.io.ResultsReport  - wil be filtered by null
+2016-04-01 11:40:47,321 INFO  a00904362.Gis  - Database closed
+2016-04-01 11:40:47,322 INFO  a00904362.Gis  - 2016-04-01T18:40:47.322Z
+2016-04-01 11:40:47,323 INFO  a00904362.Gis  - GIS2 has finished. Exit code - 0
+2016-04-01 11:50:29,671 INFO  a00904362.Gis  - Starting Assignment 2
+2016-04-01 11:50:29,675 INFO  a00904362.Gis  - 2016-04-01T18:50:29.675Z
+2016-04-01 11:50:29,822 DEBUG a00904362.data.db.Database  - Loading database properties from db.properties
+2016-04-01 11:50:29,970 DEBUG a00904362.data.db.Database  - Driver loaded 
+2016-04-01 11:50:30,822 DEBUG a00904362.data.db.Database  - Database connected Microsoft SQL Server
+2016-04-01 11:50:30,929 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.PlayerDao
+2016-04-01 11:50:30,985 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.PersonaDao
+2016-04-01 11:50:31,009 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.GameDao
+2016-04-01 11:50:31,045 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.ScoreDao
+2016-04-01 11:50:31,597 DEBUG a00904362.data.io.PlayerReader  - Z:\GIT\2613Assignment1\A00904362Gis2\players.dat
+2016-04-01 11:50:31,754 INFO  a00904362.data.dao.Dao  - Table A00904362_Player created 
+2016-04-01 11:50:32,140 DEBUG a00904362.data.io.GameReader  - Z:\GIT\2613Assignment1\A00904362Gis2\games.dat
+2016-04-01 11:50:32,190 INFO  a00904362.data.dao.Dao  - Table A00904362_Game created 
+2016-04-01 11:50:32,448 DEBUG a00904362.data.Score  - Z:\GIT\2613Assignment1\A00904362Gis2\scores.dat
+2016-04-01 11:50:32,497 INFO  a00904362.data.dao.Dao  - Table A00904362_Score created 
+2016-04-01 11:50:33,885 DEBUG a00904362.data.io.PersonaReader  - Z:\GIT\2613Assignment1\A00904362Gis2\personas.dat
+2016-04-01 11:50:33,945 INFO  a00904362.data.dao.Dao  - Table A00904362_Persona created 
+2016-04-01 11:50:34,544 DEBUG a00904362.Gis  - gametags- [CastleRock, Cirronith, Crayonbreath, Deathstar, GreenPanda, Ithroeann, Mazzzap, Quinesia, Redstripe, TorpedoBear, VolcanoBrawler]
+2016-04-01 11:50:34,570 DEBUG a00904362.Gis  - Result [persona_id=6, game_id=QUFI, gameName=Quick Fingers, gameTag=Crayonbreath, platform=PS, win=1, loss=0, total=1, scorestr=1:0player_id=3]
+2016-04-01 11:50:34,571 DEBUG a00904362.Gis  - Result [persona_id=9, game_id=QUFI, gameName=Quick Fingers, gameTag=CastleRock, platform=XB, win=0, loss=1, total=1, scorestr=0:1player_id=5]
+2016-04-01 11:50:34,573 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=QUFI, gameName=Quick Fingers, gameTag=VolcanoBrawler, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 11:50:34,573 DEBUG a00904362.Gis  - Result [persona_id=3, game_id=QUFI, gameName=Quick Fingers, gameTag=Deathstar, platform=IO, win=2, loss=1, total=3, scorestr=2:1player_id=1]
+2016-04-01 11:50:34,575 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=QUFI, gameName=Quick Fingers, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 11:50:34,576 DEBUG a00904362.Gis  - Result [persona_id=2, game_id=CODE, gameName=Colour Demon, gameTag=Cirronith, platform=PS, win=2, loss=0, total=2, scorestr=2:0player_id=1]
+2016-04-01 11:50:34,577 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=QUFI, gameName=Quick Fingers, gameTag=Mazzzap, platform=AN, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 11:50:34,577 DEBUG a00904362.Gis  - Result [persona_id=1, game_id=QUFI, gameName=Quick Fingers, gameTag=Ithroeann, platform=IO, win=1, loss=1, total=2, scorestr=1:1player_id=1]
+2016-04-01 11:50:34,578 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=CODE, gameName=Colour Demon, gameTag=VolcanoBrawler, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 11:50:34,579 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=CODE, gameName=Colour Demon, gameTag=Redstripe, platform=PC, win=1, loss=1, total=2, scorestr=1:1player_id=2]
+2016-04-01 11:50:34,580 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=CODE, gameName=Colour Demon, gameTag=Mazzzap, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 11:50:34,582 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=CODE, gameName=Colour Demon, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 11:50:34,582 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=NUPI, gameName=Number Picker, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 11:50:34,583 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=NUPI, gameName=Number Picker, gameTag=Mazzzap, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 11:50:34,584 DEBUG a00904362.Gis  - Result [persona_id=10, game_id=NUPI, gameName=Number Picker, gameTag=TorpedoBear, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=5]
+2016-04-01 11:50:34,585 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=NUPI, gameName=Number Picker, gameTag=VolcanoBrawler, platform=PC, win=0, loss=2, total=2, scorestr=0:2player_id=4]
+2016-04-01 11:50:34,586 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=NUPI, gameName=Number Picker, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 11:50:34,587 DEBUG a00904362.Gis  - Result [persona_id=11, game_id=NUPI, gameName=Number Picker, gameTag=GreenPanda, platform=AN, win=1, loss=1, total=2, scorestr=1:1player_id=5]
+2016-04-01 11:50:34,588 DEBUG a00904362.Gis  - Initial list. Size: 18
+2016-04-01 11:50:35,292 DEBUG a00904362.ui.MainFrame  - a00904362.ui.MainFrame
+2016-04-01 11:50:44,604 DEBUG a00904362.Gis  - Result [persona_id=6, game_id=QUFI, gameName=Quick Fingers, gameTag=Crayonbreath, platform=PS, win=1, loss=0, total=1, scorestr=1:0player_id=3]
+2016-04-01 11:50:44,605 DEBUG a00904362.Gis  - Result [persona_id=9, game_id=QUFI, gameName=Quick Fingers, gameTag=CastleRock1, platform=XB, win=0, loss=1, total=1, scorestr=0:1player_id=5]
+2016-04-01 11:50:44,607 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=QUFI, gameName=Quick Fingers, gameTag=VolcanoBrawler, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 11:50:44,607 DEBUG a00904362.Gis  - Result [persona_id=3, game_id=QUFI, gameName=Quick Fingers, gameTag=Deathstar, platform=IO, win=2, loss=1, total=3, scorestr=2:1player_id=1]
+2016-04-01 11:50:44,609 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=QUFI, gameName=Quick Fingers, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 11:50:44,610 DEBUG a00904362.Gis  - Result [persona_id=2, game_id=CODE, gameName=Colour Demon, gameTag=Cirronith, platform=PS, win=2, loss=0, total=2, scorestr=2:0player_id=1]
+2016-04-01 11:50:44,611 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=QUFI, gameName=Quick Fingers, gameTag=Mazzzap, platform=AN, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 11:50:44,612 DEBUG a00904362.Gis  - Result [persona_id=1, game_id=QUFI, gameName=Quick Fingers, gameTag=Ithroeann, platform=IO, win=1, loss=1, total=2, scorestr=1:1player_id=1]
+2016-04-01 11:50:44,613 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=CODE, gameName=Colour Demon, gameTag=VolcanoBrawler, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 11:50:44,614 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=CODE, gameName=Colour Demon, gameTag=Redstripe, platform=PC, win=1, loss=1, total=2, scorestr=1:1player_id=2]
+2016-04-01 11:50:44,615 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=CODE, gameName=Colour Demon, gameTag=Mazzzap, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 11:50:44,615 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=CODE, gameName=Colour Demon, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 11:50:44,616 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=NUPI, gameName=Number Picker, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 11:50:44,617 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=NUPI, gameName=Number Picker, gameTag=Mazzzap, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 11:50:44,618 DEBUG a00904362.Gis  - Result [persona_id=10, game_id=NUPI, gameName=Number Picker, gameTag=TorpedoBear, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=5]
+2016-04-01 11:50:44,619 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=NUPI, gameName=Number Picker, gameTag=VolcanoBrawler, platform=PC, win=0, loss=2, total=2, scorestr=0:2player_id=4]
+2016-04-01 11:50:44,620 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=NUPI, gameName=Number Picker, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 11:50:44,621 DEBUG a00904362.Gis  - Result [persona_id=11, game_id=NUPI, gameName=Number Picker, gameTag=GreenPanda, platform=AN, win=1, loss=1, total=2, scorestr=1:1player_id=5]
+2016-04-01 11:50:44,622 DEBUG a00904362.Gis  - Initial list. Size: 18
+2016-04-01 11:50:44,622 DEBUG a00904362.Gis  - gametags- [CastleRock1, Cirronith, Crayonbreath, Deathstar, GreenPanda, Ithroeann, Mazzzap, Quinesia, Redstripe, TorpedoBear, VolcanoBrawler]
+2016-04-01 11:50:55,714 INFO  a00904362.data.io.ResultsReport  - wil be filtered by null
+2016-04-01 11:51:11,146 INFO  a00904362.data.io.ResultsReport  - wil be filtered by null
+2016-04-01 11:51:18,971 INFO  a00904362.data.io.ResultsReport  - wil be filtered by null
+2016-04-01 11:51:37,240 INFO  a00904362.data.io.ResultsReport  - wil be filtered by Crayonbreath
+2016-04-01 11:52:51,751 DEBUG a00904362.Gis  - Result [persona_id=6, game_id=QUFI, gameName=Quick Fingers, gameTag=Crayonbreath, platform=PS, win=1, loss=0, total=1, scorestr=1:0player_id=3]
+2016-04-01 11:52:51,752 DEBUG a00904362.Gis  - Result [persona_id=9, game_id=QUFI, gameName=Quick Fingers, gameTag=CastleRock1, platform=XB, win=0, loss=1, total=1, scorestr=0:1player_id=5]
+2016-04-01 11:52:51,753 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=QUFI, gameName=Quick Fingers, gameTag=VolcanoBrawler1, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 11:52:51,754 DEBUG a00904362.Gis  - Result [persona_id=3, game_id=QUFI, gameName=Quick Fingers, gameTag=Deathstar, platform=IO, win=2, loss=1, total=3, scorestr=2:1player_id=1]
+2016-04-01 11:52:51,755 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=QUFI, gameName=Quick Fingers, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 11:52:51,755 DEBUG a00904362.Gis  - Result [persona_id=2, game_id=CODE, gameName=Colour Demon, gameTag=Cirronith, platform=PS, win=2, loss=0, total=2, scorestr=2:0player_id=1]
+2016-04-01 11:52:51,756 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=QUFI, gameName=Quick Fingers, gameTag=Mazzzap, platform=AN, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 11:52:51,757 DEBUG a00904362.Gis  - Result [persona_id=1, game_id=QUFI, gameName=Quick Fingers, gameTag=Ithroeann, platform=IO, win=1, loss=1, total=2, scorestr=1:1player_id=1]
+2016-04-01 11:52:51,758 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=CODE, gameName=Colour Demon, gameTag=VolcanoBrawler1, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 11:52:51,759 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=CODE, gameName=Colour Demon, gameTag=Redstripe, platform=PC, win=1, loss=1, total=2, scorestr=1:1player_id=2]
+2016-04-01 11:52:51,759 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=CODE, gameName=Colour Demon, gameTag=Mazzzap, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 11:52:51,760 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=CODE, gameName=Colour Demon, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 11:52:51,761 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=NUPI, gameName=Number Picker, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 11:52:51,762 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=NUPI, gameName=Number Picker, gameTag=Mazzzap, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 11:52:51,763 DEBUG a00904362.Gis  - Result [persona_id=10, game_id=NUPI, gameName=Number Picker, gameTag=TorpedoBear, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=5]
+2016-04-01 11:52:51,764 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=NUPI, gameName=Number Picker, gameTag=VolcanoBrawler1, platform=PC, win=0, loss=2, total=2, scorestr=0:2player_id=4]
+2016-04-01 11:52:51,765 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=NUPI, gameName=Number Picker, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 11:52:51,785 DEBUG a00904362.Gis  - Result [persona_id=11, game_id=NUPI, gameName=Number Picker, gameTag=GreenPanda, platform=AN, win=1, loss=1, total=2, scorestr=1:1player_id=5]
+2016-04-01 11:52:51,786 DEBUG a00904362.Gis  - Initial list. Size: 18
+2016-04-01 11:52:51,787 DEBUG a00904362.Gis  - gametags- [CastleRock1, Cirronith, Crayonbreath, Deathstar, GreenPanda, Ithroeann, Mazzzap, Quinesia, Redstripe, TorpedoBear, VolcanoBrawler1]
+2016-04-01 11:53:03,538 INFO  a00904362.Gis  - Database closed
+2016-04-01 11:53:03,539 INFO  a00904362.Gis  - 2016-04-01T18:53:03.539Z
+2016-04-01 11:53:03,540 INFO  a00904362.Gis  - GIS2 has finished. Exit code - 0
+2016-04-01 13:53:01,590 INFO  a00904362.Gis  - Starting Assignment 2
+2016-04-01 13:53:01,610 INFO  a00904362.Gis  - 2016-04-01T20:53:01.610Z
+2016-04-01 13:53:01,779 DEBUG a00904362.data.db.Database  - Loading database properties from db.properties
+2016-04-01 13:53:01,940 DEBUG a00904362.data.db.Database  - Driver loaded 
+2016-04-01 13:53:02,860 DEBUG a00904362.data.db.Database  - Database connected Microsoft SQL Server
+2016-04-01 13:53:02,954 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.PlayerDao
+2016-04-01 13:53:03,009 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.PersonaDao
+2016-04-01 13:53:03,033 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.GameDao
+2016-04-01 13:53:03,093 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.ScoreDao
+2016-04-01 13:53:03,645 DEBUG a00904362.data.io.PlayerReader  - Z:\GIT\2613Assignment1\A00904362Gis2\players.dat
+2016-04-01 13:53:03,866 INFO  a00904362.data.dao.Dao  - Table A00904362_Player created 
+2016-04-01 13:53:04,318 DEBUG a00904362.data.io.GameReader  - Z:\GIT\2613Assignment1\A00904362Gis2\games.dat
+2016-04-01 13:53:04,372 INFO  a00904362.data.dao.Dao  - Table A00904362_Game created 
+2016-04-01 13:53:04,663 DEBUG a00904362.data.Score  - Z:\GIT\2613Assignment1\A00904362Gis2\scores.dat
+2016-04-01 13:53:04,700 INFO  a00904362.data.dao.Dao  - Table A00904362_Score created 
+2016-04-01 13:53:06,699 DEBUG a00904362.data.io.PersonaReader  - Z:\GIT\2613Assignment1\A00904362Gis2\personas.dat
+2016-04-01 13:53:06,775 INFO  a00904362.data.dao.Dao  - Table A00904362_Persona created 
+2016-04-01 13:53:07,613 DEBUG a00904362.Gis  - gametags- [CastleRock, Cirronith, Crayonbreath, Deathstar, GreenPanda, Ithroeann, Mazzzap, Quinesia, Redstripe, TorpedoBear, VolcanoBrawler]
+2016-04-01 13:53:07,640 DEBUG a00904362.Gis  - Result [persona_id=6, game_id=QUFI, gameName=Quick Fingers, gameTag=Crayonbreath, platform=PS, win=1, loss=0, total=1, scorestr=1:0player_id=3]
+2016-04-01 13:53:07,641 DEBUG a00904362.Gis  - Result [persona_id=9, game_id=QUFI, gameName=Quick Fingers, gameTag=CastleRock, platform=XB, win=0, loss=1, total=1, scorestr=0:1player_id=5]
+2016-04-01 13:53:07,642 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=QUFI, gameName=Quick Fingers, gameTag=VolcanoBrawler, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 13:53:07,643 DEBUG a00904362.Gis  - Result [persona_id=3, game_id=QUFI, gameName=Quick Fingers, gameTag=Deathstar, platform=IO, win=2, loss=1, total=3, scorestr=2:1player_id=1]
+2016-04-01 13:53:07,643 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=QUFI, gameName=Quick Fingers, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 13:53:07,644 DEBUG a00904362.Gis  - Result [persona_id=2, game_id=CODE, gameName=Colour Demon, gameTag=Cirronith, platform=PS, win=2, loss=0, total=2, scorestr=2:0player_id=1]
+2016-04-01 13:53:07,645 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=QUFI, gameName=Quick Fingers, gameTag=Mazzzap, platform=AN, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 13:53:07,646 DEBUG a00904362.Gis  - Result [persona_id=1, game_id=QUFI, gameName=Quick Fingers, gameTag=Ithroeann, platform=IO, win=1, loss=1, total=2, scorestr=1:1player_id=1]
+2016-04-01 13:53:07,646 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=CODE, gameName=Colour Demon, gameTag=VolcanoBrawler, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 13:53:07,647 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=CODE, gameName=Colour Demon, gameTag=Redstripe, platform=PC, win=1, loss=1, total=2, scorestr=1:1player_id=2]
+2016-04-01 13:53:07,648 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=CODE, gameName=Colour Demon, gameTag=Mazzzap, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 13:53:07,649 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=CODE, gameName=Colour Demon, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 13:53:07,649 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=NUPI, gameName=Number Picker, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 13:53:07,650 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=NUPI, gameName=Number Picker, gameTag=Mazzzap, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 13:53:07,651 DEBUG a00904362.Gis  - Result [persona_id=10, game_id=NUPI, gameName=Number Picker, gameTag=TorpedoBear, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=5]
+2016-04-01 13:53:07,651 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=NUPI, gameName=Number Picker, gameTag=VolcanoBrawler, platform=PC, win=0, loss=2, total=2, scorestr=0:2player_id=4]
+2016-04-01 13:53:07,652 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=NUPI, gameName=Number Picker, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 13:53:07,653 DEBUG a00904362.Gis  - Result [persona_id=11, game_id=NUPI, gameName=Number Picker, gameTag=GreenPanda, platform=AN, win=1, loss=1, total=2, scorestr=1:1player_id=5]
+2016-04-01 13:53:07,654 DEBUG a00904362.Gis  - Initial list. Size: 18
+2016-04-01 13:53:08,283 DEBUG a00904362.ui.MainFrame  - a00904362.ui.MainFrame
+2016-04-01 13:54:13,127 DEBUG a00904362.Gis  - Result [persona_id=6, game_id=QUFI, gameName=Quick Fingers, gameTag=Crayonbreath, platform=PS, win=1, loss=0, total=1, scorestr=1:0player_id=3]
+2016-04-01 13:54:13,128 DEBUG a00904362.Gis  - Result [persona_id=9, game_id=QUFI, gameName=Quick Fingers, gameTag=CastleRock, platform=XB, win=0, loss=1, total=1, scorestr=0:1player_id=5]
+2016-04-01 13:54:13,129 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=QUFI, gameName=Quick Fingers, gameTag=VolcanoBrawler, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 13:54:13,130 DEBUG a00904362.Gis  - Result [persona_id=3, game_id=QUFI, gameName=Quick Fingers, gameTag=Deathstar, platform=IO, win=2, loss=1, total=3, scorestr=2:1player_id=1]
+2016-04-01 13:54:13,131 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=QUFI, gameName=Quick Fingers, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 13:54:13,132 DEBUG a00904362.Gis  - Result [persona_id=2, game_id=CODE, gameName=Colour Demon, gameTag=Cirronith, platform=PS, win=2, loss=0, total=2, scorestr=2:0player_id=1]
+2016-04-01 13:54:13,133 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=QUFI, gameName=Quick Fingers, gameTag=Mazzzap1, platform=AN, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 13:54:13,135 DEBUG a00904362.Gis  - Result [persona_id=1, game_id=QUFI, gameName=Quick Fingers, gameTag=Ithroeann, platform=IO, win=1, loss=1, total=2, scorestr=1:1player_id=1]
+2016-04-01 13:54:13,135 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=CODE, gameName=Colour Demon, gameTag=VolcanoBrawler, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 13:54:13,136 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=CODE, gameName=Colour Demon, gameTag=Redstripe, platform=PC, win=1, loss=1, total=2, scorestr=1:1player_id=2]
+2016-04-01 13:54:13,137 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=CODE, gameName=Colour Demon, gameTag=Mazzzap1, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 13:54:13,138 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=CODE, gameName=Colour Demon, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 13:54:13,140 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=NUPI, gameName=Number Picker, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 13:54:13,141 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=NUPI, gameName=Number Picker, gameTag=Mazzzap1, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 13:54:13,142 DEBUG a00904362.Gis  - Result [persona_id=10, game_id=NUPI, gameName=Number Picker, gameTag=TorpedoBear, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=5]
+2016-04-01 13:54:13,143 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=NUPI, gameName=Number Picker, gameTag=VolcanoBrawler, platform=PC, win=0, loss=2, total=2, scorestr=0:2player_id=4]
+2016-04-01 13:54:13,144 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=NUPI, gameName=Number Picker, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 13:54:13,145 DEBUG a00904362.Gis  - Result [persona_id=11, game_id=NUPI, gameName=Number Picker, gameTag=GreenPanda, platform=AN, win=1, loss=1, total=2, scorestr=1:1player_id=5]
+2016-04-01 13:54:13,145 DEBUG a00904362.Gis  - Initial list. Size: 18
+2016-04-01 13:54:13,146 DEBUG a00904362.Gis  - gametags- [CastleRock, Cirronith, Crayonbreath, Deathstar, GreenPanda, Ithroeann, Mazzzap1, Quinesia, Redstripe, TorpedoBear, VolcanoBrawler]
+2016-04-01 13:54:31,275 INFO  a00904362.data.io.ResultsReport  - wil be filtered by null
+2016-04-01 13:54:41,243 INFO  a00904362.data.io.ResultsReport  - wil be filtered by null
+2016-04-01 13:54:56,595 INFO  a00904362.data.io.ResultsReport  - wil be filtered by GreenPanda
+2016-04-01 13:55:26,520 INFO  a00904362.Gis  - Database closed
+2016-04-01 13:55:26,522 INFO  a00904362.Gis  - 2016-04-01T20:55:26.522Z
+2016-04-01 13:55:26,523 INFO  a00904362.Gis  - GIS2 has finished. Exit code - 0
+2016-04-01 13:57:20,552 INFO  a00904362.Gis  - Starting Assignment 2
+2016-04-01 13:57:20,556 INFO  a00904362.Gis  - 2016-04-01T20:57:20.556Z
+2016-04-01 13:57:20,641 DEBUG a00904362.data.db.Database  - Loading database properties from db.properties
+2016-04-01 13:57:20,744 DEBUG a00904362.data.db.Database  - Driver loaded 
+2016-04-01 13:57:21,609 DEBUG a00904362.data.db.Database  - Database connected Microsoft SQL Server
+2016-04-01 13:57:21,693 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.PlayerDao
+2016-04-01 13:57:21,744 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.PersonaDao
+2016-04-01 13:57:21,768 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.GameDao
+2016-04-01 13:57:21,803 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.ScoreDao
+2016-04-01 13:57:22,247 DEBUG a00904362.Gis  - Player [id=1, firstname=Fish, lasttname=Fred, email=fredfish@gamer.net]
+2016-04-01 13:57:22,249 DEBUG a00904362.Gis  - Player [id=2, firstname=Nash1, lasttname=Laurie1, email=laurieeenash@gmail.com]
+2016-04-01 13:57:22,249 DEBUG a00904362.Gis  - Player [id=3, firstname=Washington, lasttname=Conrad, email=fredfish@gamer.net]
+2016-04-01 13:57:22,250 DEBUG a00904362.Gis  - Player [id=4, firstname=Price, lasttname=Jeanette, email=priceizrite@hotmail.com]
+2016-04-01 13:57:22,251 DEBUG a00904362.Gis  - Player [id=5, firstname=Chan, lasttname=Mark, email=mchan@oneminutemail.com]
+2016-04-01 13:57:22,431 DEBUG a00904362.Gis  - Game [id=CODE, name=Colour Demon, producer=Magenta Boxer]
+2016-04-01 13:57:22,432 DEBUG a00904362.Gis  - Game [id=NUPI, name=Number Picker, producer=Random Numburrs]
+2016-04-01 13:57:22,433 DEBUG a00904362.Gis  - Game [id=QUFI, name=Quick Fingers, producer=Digitology]
+2016-04-01 13:57:22,594 DEBUG a00904362.Gis  - [Score [persona_id=1, game_id=QUFI, result=LOSE], Score [persona_id=1, game_id=QUFI, result=WIN], Score [persona_id=2, game_id=CODE, result=WIN], Score [persona_id=2, game_id=CODE, result=WIN], Score [persona_id=3, game_id=QUFI, result=LOSE], Score [persona_id=3, game_id=QUFI, result=WIN], Score [persona_id=3, game_id=QUFI, result=WIN], Score [persona_id=4, game_id=QUFI, result=WIN], Score [persona_id=4, game_id=NUPI, result=LOSE], Score [persona_id=4, game_id=CODE, result=LOSE], Score [persona_id=5, game_id=QUFI, result=WIN], Score [persona_id=5, game_id=CODE, result=LOSE], Score [persona_id=5, game_id=NUPI, result=WIN], Score [persona_id=5, game_id=CODE, result=WIN], Score [persona_id=6, game_id=QUFI, result=WIN], Score [persona_id=7, game_id=NUPI, result=WIN], Score [persona_id=7, game_id=CODE, result=WIN], Score [persona_id=8, game_id=QUFI, result=LOSE], Score [persona_id=8, game_id=NUPI, result=LOSE], Score [persona_id=8, game_id=NUPI, result=LOSE], Score [persona_id=8, game_id=CODE, result=LOSE], Score [persona_id=9, game_id=QUFI, result=LOSE], Score [persona_id=10, game_id=NUPI, result=WIN], Score [persona_id=11, game_id=NUPI, result=WIN], Score [persona_id=11, game_id=NUPI, result=LOSE]]
+2016-04-01 13:57:22,731 DEBUG a00904362.Gis  - Persona [id=1, player_id=1, gametag=Ithroeann, platform=IO]
+2016-04-01 13:57:22,732 DEBUG a00904362.Gis  - Persona [id=2, player_id=1, gametag=Cirronith, platform=PS]
+2016-04-01 13:57:22,733 DEBUG a00904362.Gis  - Persona [id=3, player_id=1, gametag=Deathstar, platform=IO]
+2016-04-01 13:57:22,734 DEBUG a00904362.Gis  - Persona [id=4, player_id=2, gametag=Mazzzap1, platform=AN]
+2016-04-01 13:57:22,736 DEBUG a00904362.Gis  - Persona [id=5, player_id=2, gametag=Redstripe, platform=PC]
+2016-04-01 13:57:22,737 DEBUG a00904362.Gis  - Persona [id=6, player_id=3, gametag=Crayonbreath, platform=PS]
+2016-04-01 13:57:22,738 DEBUG a00904362.Gis  - Persona [id=7, player_id=4, gametag=Quinesia, platform=XB]
+2016-04-01 13:57:22,739 DEBUG a00904362.Gis  - Persona [id=8, player_id=4, gametag=VolcanoBrawler, platform=PC]
+2016-04-01 13:57:22,739 DEBUG a00904362.Gis  - Persona [id=9, player_id=5, gametag=CastleRock, platform=XB]
+2016-04-01 13:57:22,741 DEBUG a00904362.Gis  - Persona [id=10, player_id=5, gametag=TorpedoBear, platform=PC]
+2016-04-01 13:57:22,742 DEBUG a00904362.Gis  - Persona [id=11, player_id=5, gametag=GreenPanda, platform=AN]
+2016-04-01 13:57:22,743 DEBUG a00904362.Gis  - gametags- [CastleRock, Cirronith, Crayonbreath, Deathstar, GreenPanda, Ithroeann, Mazzzap1, Quinesia, Redstripe, TorpedoBear, VolcanoBrawler]
+2016-04-01 13:57:22,761 DEBUG a00904362.Gis  - Result [persona_id=6, game_id=QUFI, gameName=Quick Fingers, gameTag=Crayonbreath, platform=PS, win=1, loss=0, total=1, scorestr=1:0player_id=3]
+2016-04-01 13:57:22,762 DEBUG a00904362.Gis  - Result [persona_id=9, game_id=QUFI, gameName=Quick Fingers, gameTag=CastleRock, platform=XB, win=0, loss=1, total=1, scorestr=0:1player_id=5]
+2016-04-01 13:57:22,763 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=QUFI, gameName=Quick Fingers, gameTag=VolcanoBrawler, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 13:57:22,764 DEBUG a00904362.Gis  - Result [persona_id=3, game_id=QUFI, gameName=Quick Fingers, gameTag=Deathstar, platform=IO, win=2, loss=1, total=3, scorestr=2:1player_id=1]
+2016-04-01 13:57:22,765 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=QUFI, gameName=Quick Fingers, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 13:57:22,766 DEBUG a00904362.Gis  - Result [persona_id=2, game_id=CODE, gameName=Colour Demon, gameTag=Cirronith, platform=PS, win=2, loss=0, total=2, scorestr=2:0player_id=1]
+2016-04-01 13:57:22,767 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=QUFI, gameName=Quick Fingers, gameTag=Mazzzap1, platform=AN, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 13:57:22,768 DEBUG a00904362.Gis  - Result [persona_id=1, game_id=QUFI, gameName=Quick Fingers, gameTag=Ithroeann, platform=IO, win=1, loss=1, total=2, scorestr=1:1player_id=1]
+2016-04-01 13:57:22,769 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=CODE, gameName=Colour Demon, gameTag=VolcanoBrawler, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 13:57:22,770 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=CODE, gameName=Colour Demon, gameTag=Redstripe, platform=PC, win=1, loss=1, total=2, scorestr=1:1player_id=2]
+2016-04-01 13:57:22,771 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=CODE, gameName=Colour Demon, gameTag=Mazzzap1, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 13:57:22,771 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=CODE, gameName=Colour Demon, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 13:57:22,772 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=NUPI, gameName=Number Picker, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 13:57:22,773 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=NUPI, gameName=Number Picker, gameTag=Mazzzap1, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 13:57:22,773 DEBUG a00904362.Gis  - Result [persona_id=10, game_id=NUPI, gameName=Number Picker, gameTag=TorpedoBear, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=5]
+2016-04-01 13:57:22,774 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=NUPI, gameName=Number Picker, gameTag=VolcanoBrawler, platform=PC, win=0, loss=2, total=2, scorestr=0:2player_id=4]
+2016-04-01 13:57:22,775 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=NUPI, gameName=Number Picker, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 13:57:22,775 DEBUG a00904362.Gis  - Result [persona_id=11, game_id=NUPI, gameName=Number Picker, gameTag=GreenPanda, platform=AN, win=1, loss=1, total=2, scorestr=1:1player_id=5]
+2016-04-01 13:57:22,777 DEBUG a00904362.Gis  - Initial list. Size: 18
+2016-04-01 13:57:23,431 DEBUG a00904362.ui.MainFrame  - a00904362.ui.MainFrame
+2016-04-01 13:57:37,866 INFO  a00904362.data.io.ResultsReport  - wil be filtered by GreenPanda
+2016-04-01 13:57:45,170 INFO  a00904362.data.io.ResultsReport  - wil be filtered by null
+2016-04-01 13:58:11,033 DEBUG a00904362.Gis  - Result [persona_id=6, game_id=QUFI, gameName=Quick Fingers, gameTag=Crayonbreath, platform=PS, win=1, loss=0, total=1, scorestr=1:0player_id=3]
+2016-04-01 13:58:11,034 DEBUG a00904362.Gis  - Result [persona_id=9, game_id=QUFI, gameName=Quick Fingers, gameTag=CastleRock, platform=XB, win=0, loss=1, total=1, scorestr=0:1player_id=5]
+2016-04-01 13:58:11,035 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=QUFI, gameName=Quick Fingers, gameTag=VolcanoBrawler, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 13:58:11,036 DEBUG a00904362.Gis  - Result [persona_id=3, game_id=QUFI, gameName=Quick Fingers, gameTag=Deathstar, platform=IO, win=2, loss=1, total=3, scorestr=2:1player_id=1]
+2016-04-01 13:58:11,037 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=QUFI, gameName=Quick Fingers, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 13:58:11,037 DEBUG a00904362.Gis  - Result [persona_id=2, game_id=CODE, gameName=Colour Demon, gameTag=Cirronith1, platform=PS, win=2, loss=0, total=2, scorestr=2:0player_id=1]
+2016-04-01 13:58:11,038 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=QUFI, gameName=Quick Fingers, gameTag=Mazzzap1, platform=AN, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 13:58:11,039 DEBUG a00904362.Gis  - Result [persona_id=1, game_id=QUFI, gameName=Quick Fingers, gameTag=Ithroeann, platform=IO, win=1, loss=1, total=2, scorestr=1:1player_id=1]
+2016-04-01 13:58:11,040 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=CODE, gameName=Colour Demon, gameTag=VolcanoBrawler, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 13:58:11,040 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=CODE, gameName=Colour Demon, gameTag=Redstripe, platform=PC, win=1, loss=1, total=2, scorestr=1:1player_id=2]
+2016-04-01 13:58:11,041 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=CODE, gameName=Colour Demon, gameTag=Mazzzap1, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 13:58:11,042 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=CODE, gameName=Colour Demon, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 13:58:11,043 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=NUPI, gameName=Number Picker, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 13:58:11,043 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=NUPI, gameName=Number Picker, gameTag=Mazzzap1, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 13:58:11,044 DEBUG a00904362.Gis  - Result [persona_id=10, game_id=NUPI, gameName=Number Picker, gameTag=TorpedoBear, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=5]
+2016-04-01 13:58:11,045 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=NUPI, gameName=Number Picker, gameTag=VolcanoBrawler, platform=PC, win=0, loss=2, total=2, scorestr=0:2player_id=4]
+2016-04-01 13:58:11,046 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=NUPI, gameName=Number Picker, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 13:58:11,046 DEBUG a00904362.Gis  - Result [persona_id=11, game_id=NUPI, gameName=Number Picker, gameTag=GreenPanda, platform=AN, win=1, loss=1, total=2, scorestr=1:1player_id=5]
+2016-04-01 13:58:11,047 DEBUG a00904362.Gis  - Initial list. Size: 18
+2016-04-01 13:58:11,048 DEBUG a00904362.Gis  - gametags- [CastleRock, Cirronith1, Crayonbreath, Deathstar, GreenPanda, Ithroeann, Mazzzap1, Quinesia, Redstripe, TorpedoBear, VolcanoBrawler]
+2016-04-01 13:58:27,567 INFO  a00904362.Gis  - Database closed
+2016-04-01 13:58:27,568 INFO  a00904362.Gis  - 2016-04-01T20:58:27.568Z
+2016-04-01 13:58:27,569 INFO  a00904362.Gis  - GIS2 has finished. Exit code - 0
+2016-04-01 13:58:50,992 INFO  a00904362.Gis  - Starting Assignment 2
+2016-04-01 13:58:50,996 INFO  a00904362.Gis  - 2016-04-01T20:58:50.996Z
+2016-04-01 13:58:51,064 DEBUG a00904362.data.db.Database  - Loading database properties from db.properties
+2016-04-01 13:58:51,148 DEBUG a00904362.data.db.Database  - Driver loaded 
+2016-04-01 13:58:51,915 DEBUG a00904362.data.db.Database  - Database connected Microsoft SQL Server
+2016-04-01 13:58:51,951 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.PlayerDao
+2016-04-01 13:58:51,965 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.PersonaDao
+2016-04-01 13:58:51,978 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.GameDao
+2016-04-01 13:58:51,992 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.ScoreDao
+2016-04-01 13:58:52,408 DEBUG a00904362.data.io.PlayerReader  - Z:\GIT\2613Assignment1\A00904362Gis2\players.dat
+2016-04-01 13:58:52,502 INFO  a00904362.data.dao.Dao  - Table A00904362_Player created 
+2016-04-01 13:58:52,863 DEBUG a00904362.data.io.GameReader  - Z:\GIT\2613Assignment1\A00904362Gis2\games.dat
+2016-04-01 13:58:52,923 INFO  a00904362.data.dao.Dao  - Table A00904362_Game created 
+2016-04-01 13:58:53,255 DEBUG a00904362.data.Score  - Z:\GIT\2613Assignment1\A00904362Gis2\scores.dat
+2016-04-01 13:58:53,300 INFO  a00904362.data.dao.Dao  - Table A00904362_Score created 
+2016-04-01 13:58:54,819 DEBUG a00904362.data.io.PersonaReader  - Z:\GIT\2613Assignment1\A00904362Gis2\personas.dat
+2016-04-01 13:58:54,860 INFO  a00904362.data.dao.Dao  - Table A00904362_Persona created 
+2016-04-01 13:58:55,495 DEBUG a00904362.Gis  - gametags- [CastleRock, Cirronith, Crayonbreath, Deathstar, GreenPanda, Ithroeann, Mazzzap, Quinesia, Redstripe, TorpedoBear, VolcanoBrawler]
+2016-04-01 13:58:55,507 DEBUG a00904362.Gis  - Result [persona_id=6, game_id=QUFI, gameName=Quick Fingers, gameTag=Crayonbreath, platform=PS, win=1, loss=0, total=1, scorestr=1:0player_id=3]
+2016-04-01 13:58:55,508 DEBUG a00904362.Gis  - Result [persona_id=9, game_id=QUFI, gameName=Quick Fingers, gameTag=CastleRock, platform=XB, win=0, loss=1, total=1, scorestr=0:1player_id=5]
+2016-04-01 13:58:55,509 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=QUFI, gameName=Quick Fingers, gameTag=VolcanoBrawler, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 13:58:55,510 DEBUG a00904362.Gis  - Result [persona_id=3, game_id=QUFI, gameName=Quick Fingers, gameTag=Deathstar, platform=IO, win=2, loss=1, total=3, scorestr=2:1player_id=1]
+2016-04-01 13:58:55,511 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=QUFI, gameName=Quick Fingers, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 13:58:55,512 DEBUG a00904362.Gis  - Result [persona_id=2, game_id=CODE, gameName=Colour Demon, gameTag=Cirronith, platform=PS, win=2, loss=0, total=2, scorestr=2:0player_id=1]
+2016-04-01 13:58:55,512 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=QUFI, gameName=Quick Fingers, gameTag=Mazzzap, platform=AN, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 13:58:55,513 DEBUG a00904362.Gis  - Result [persona_id=1, game_id=QUFI, gameName=Quick Fingers, gameTag=Ithroeann, platform=IO, win=1, loss=1, total=2, scorestr=1:1player_id=1]
+2016-04-01 13:58:55,514 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=CODE, gameName=Colour Demon, gameTag=VolcanoBrawler, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 13:58:55,515 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=CODE, gameName=Colour Demon, gameTag=Redstripe, platform=PC, win=1, loss=1, total=2, scorestr=1:1player_id=2]
+2016-04-01 13:58:55,516 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=CODE, gameName=Colour Demon, gameTag=Mazzzap, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 13:58:55,516 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=CODE, gameName=Colour Demon, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 13:58:55,517 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=NUPI, gameName=Number Picker, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 13:58:55,518 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=NUPI, gameName=Number Picker, gameTag=Mazzzap, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 13:58:55,519 DEBUG a00904362.Gis  - Result [persona_id=10, game_id=NUPI, gameName=Number Picker, gameTag=TorpedoBear, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=5]
+2016-04-01 13:58:55,519 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=NUPI, gameName=Number Picker, gameTag=VolcanoBrawler, platform=PC, win=0, loss=2, total=2, scorestr=0:2player_id=4]
+2016-04-01 13:58:55,520 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=NUPI, gameName=Number Picker, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 13:58:55,521 DEBUG a00904362.Gis  - Result [persona_id=11, game_id=NUPI, gameName=Number Picker, gameTag=GreenPanda, platform=AN, win=1, loss=1, total=2, scorestr=1:1player_id=5]
+2016-04-01 13:58:55,522 DEBUG a00904362.Gis  - Initial list. Size: 18
+2016-04-01 13:58:56,132 DEBUG a00904362.ui.MainFrame  - a00904362.ui.MainFrame
+2016-04-01 13:59:26,189 INFO  a00904362.data.io.ResultsReport  - wil be filtered by null
+2016-04-01 13:59:35,245 INFO  a00904362.data.io.ResultsReport  - wil be filtered by null
+2016-04-01 13:59:51,114 INFO  a00904362.Gis  - Database closed
+2016-04-01 13:59:51,115 INFO  a00904362.Gis  - 2016-04-01T20:59:51.115Z
+2016-04-01 13:59:51,116 INFO  a00904362.Gis  - GIS2 has finished. Exit code - 0
+2016-04-01 15:05:44,307 INFO  a00904362.Gis  - Starting Assignment 2
+2016-04-01 15:05:44,340 INFO  a00904362.Gis  - 2016-04-01T22:05:44.340Z
+2016-04-01 15:05:44,536 DEBUG a00904362.data.db.Database  - Loading database properties from db.properties
+2016-04-01 15:05:44,700 DEBUG a00904362.data.db.Database  - Driver loaded 
+2016-04-01 15:05:45,682 DEBUG a00904362.data.db.Database  - Database connected Microsoft SQL Server
+2016-04-01 15:05:45,823 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.PlayerDao
+2016-04-01 15:05:45,904 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.PersonaDao
+2016-04-01 15:05:45,951 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.GameDao
+2016-04-01 15:05:45,991 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.ScoreDao
+2016-04-01 15:05:46,515 DEBUG a00904362.Gis  - Player [id=1, firstname=Fish, lasttname=Fred, email=fredfish@gamer.net]
+2016-04-01 15:05:46,516 DEBUG a00904362.Gis  - Player [id=2, firstname=Nash, lasttname=Laurie, email=laurieeenash@gmail.com]
+2016-04-01 15:05:46,517 DEBUG a00904362.Gis  - Player [id=3, firstname=Washington, lasttname=Conrad, email=fredfish@gamer.net]
+2016-04-01 15:05:46,518 DEBUG a00904362.Gis  - Player [id=4, firstname=Price, lasttname=Jeanette, email=priceizrite@hotmail.com]
+2016-04-01 15:05:46,518 DEBUG a00904362.Gis  - Player [id=5, firstname=Chan, lasttname=Mark, email=mchan@oneminutemail.com]
+2016-04-01 15:05:46,679 DEBUG a00904362.Gis  - Game [id=CODE, name=Colour Demon, producer=Magenta Boxer]
+2016-04-01 15:05:46,680 DEBUG a00904362.Gis  - Game [id=NUPI, name=Number Picker, producer=Random Numburrs]
+2016-04-01 15:05:46,681 DEBUG a00904362.Gis  - Game [id=QUFI, name=Quick Fingers, producer=Digitology]
+2016-04-01 15:05:46,892 DEBUG a00904362.Gis  - [Score [persona_id=1, game_id=QUFI, result=LOSE], Score [persona_id=1, game_id=QUFI, result=WIN], Score [persona_id=2, game_id=CODE, result=WIN], Score [persona_id=2, game_id=CODE, result=WIN], Score [persona_id=3, game_id=QUFI, result=LOSE], Score [persona_id=3, game_id=QUFI, result=WIN], Score [persona_id=3, game_id=QUFI, result=WIN], Score [persona_id=4, game_id=QUFI, result=WIN], Score [persona_id=4, game_id=NUPI, result=LOSE], Score [persona_id=4, game_id=CODE, result=LOSE], Score [persona_id=5, game_id=QUFI, result=WIN], Score [persona_id=5, game_id=CODE, result=LOSE], Score [persona_id=5, game_id=NUPI, result=WIN], Score [persona_id=5, game_id=CODE, result=WIN], Score [persona_id=6, game_id=QUFI, result=WIN], Score [persona_id=7, game_id=NUPI, result=WIN], Score [persona_id=7, game_id=CODE, result=WIN], Score [persona_id=8, game_id=QUFI, result=LOSE], Score [persona_id=8, game_id=NUPI, result=LOSE], Score [persona_id=8, game_id=NUPI, result=LOSE], Score [persona_id=8, game_id=CODE, result=LOSE], Score [persona_id=9, game_id=QUFI, result=LOSE], Score [persona_id=10, game_id=NUPI, result=WIN], Score [persona_id=11, game_id=NUPI, result=WIN], Score [persona_id=11, game_id=NUPI, result=LOSE]]
+2016-04-01 15:05:47,053 DEBUG a00904362.Gis  - Persona [id=1, player_id=1, gametag=Ithroeann, platform=IO]
+2016-04-01 15:05:47,055 DEBUG a00904362.Gis  - Persona [id=2, player_id=1, gametag=Cirronith, platform=PS]
+2016-04-01 15:05:47,056 DEBUG a00904362.Gis  - Persona [id=3, player_id=1, gametag=Deathstar, platform=IO]
+2016-04-01 15:05:47,057 DEBUG a00904362.Gis  - Persona [id=4, player_id=2, gametag=Mazzzap, platform=AN]
+2016-04-01 15:05:47,057 DEBUG a00904362.Gis  - Persona [id=5, player_id=2, gametag=Redstripe, platform=PC]
+2016-04-01 15:05:47,058 DEBUG a00904362.Gis  - Persona [id=6, player_id=3, gametag=Crayonbreath, platform=PS]
+2016-04-01 15:05:47,059 DEBUG a00904362.Gis  - Persona [id=7, player_id=4, gametag=Quinesia, platform=XB]
+2016-04-01 15:05:47,060 DEBUG a00904362.Gis  - Persona [id=8, player_id=4, gametag=VolcanoBrawler, platform=PC]
+2016-04-01 15:05:47,061 DEBUG a00904362.Gis  - Persona [id=9, player_id=5, gametag=CastleRock, platform=XB]
+2016-04-01 15:05:47,062 DEBUG a00904362.Gis  - Persona [id=10, player_id=5, gametag=TorpedoBear, platform=PC]
+2016-04-01 15:05:47,063 DEBUG a00904362.Gis  - Persona [id=11, player_id=5, gametag=GreenPanda, platform=AN]
+2016-04-01 15:05:47,064 DEBUG a00904362.Gis  - gametags- [CastleRock, Cirronith, Crayonbreath, Deathstar, GreenPanda, Ithroeann, Mazzzap, Quinesia, Redstripe, TorpedoBear, VolcanoBrawler]
+2016-04-01 15:05:47,102 DEBUG a00904362.Gis  - Result [persona_id=6, game_id=QUFI, gameName=Quick Fingers, gameTag=Crayonbreath, platform=PS, win=1, loss=0, total=1, scorestr=1:0player_id=3]
+2016-04-01 15:05:47,103 DEBUG a00904362.Gis  - Result [persona_id=9, game_id=QUFI, gameName=Quick Fingers, gameTag=CastleRock, platform=XB, win=0, loss=1, total=1, scorestr=0:1player_id=5]
+2016-04-01 15:05:47,138 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=QUFI, gameName=Quick Fingers, gameTag=VolcanoBrawler, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 15:05:47,139 DEBUG a00904362.Gis  - Result [persona_id=3, game_id=QUFI, gameName=Quick Fingers, gameTag=Deathstar, platform=IO, win=2, loss=1, total=3, scorestr=2:1player_id=1]
+2016-04-01 15:05:47,140 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=QUFI, gameName=Quick Fingers, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 15:05:47,141 DEBUG a00904362.Gis  - Result [persona_id=2, game_id=CODE, gameName=Colour Demon, gameTag=Cirronith, platform=PS, win=2, loss=0, total=2, scorestr=2:0player_id=1]
+2016-04-01 15:05:47,142 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=QUFI, gameName=Quick Fingers, gameTag=Mazzzap, platform=AN, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 15:05:47,142 DEBUG a00904362.Gis  - Result [persona_id=1, game_id=QUFI, gameName=Quick Fingers, gameTag=Ithroeann, platform=IO, win=1, loss=1, total=2, scorestr=1:1player_id=1]
+2016-04-01 15:05:47,143 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=CODE, gameName=Colour Demon, gameTag=VolcanoBrawler, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 15:05:47,144 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=CODE, gameName=Colour Demon, gameTag=Redstripe, platform=PC, win=1, loss=1, total=2, scorestr=1:1player_id=2]
+2016-04-01 15:05:47,145 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=CODE, gameName=Colour Demon, gameTag=Mazzzap, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 15:05:47,145 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=CODE, gameName=Colour Demon, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 15:05:47,146 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=NUPI, gameName=Number Picker, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 15:05:47,147 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=NUPI, gameName=Number Picker, gameTag=Mazzzap, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 15:05:47,148 DEBUG a00904362.Gis  - Result [persona_id=10, game_id=NUPI, gameName=Number Picker, gameTag=TorpedoBear, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=5]
+2016-04-01 15:05:47,149 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=NUPI, gameName=Number Picker, gameTag=VolcanoBrawler, platform=PC, win=0, loss=2, total=2, scorestr=0:2player_id=4]
+2016-04-01 15:05:47,149 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=NUPI, gameName=Number Picker, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 15:05:47,150 DEBUG a00904362.Gis  - Result [persona_id=11, game_id=NUPI, gameName=Number Picker, gameTag=GreenPanda, platform=AN, win=1, loss=1, total=2, scorestr=1:1player_id=5]
+2016-04-01 15:05:47,151 DEBUG a00904362.Gis  - Initial list. Size: 18
+2016-04-01 15:05:47,843 DEBUG a00904362.ui.MainFrame  - a00904362.ui.MainFrame
+2016-04-01 15:07:35,887 INFO  a00904362.data.io.ResultsReport  - wil be filtered by null
+2016-04-01 15:07:54,991 INFO  a00904362.data.io.ResultsReport  - wil be filtered by null
+2016-04-01 15:08:01,693 INFO  a00904362.Gis  - Database closed
+2016-04-01 15:08:01,694 INFO  a00904362.Gis  - 2016-04-01T22:08:01.694Z
+2016-04-01 15:08:01,695 INFO  a00904362.Gis  - GIS2 has finished. Exit code - 0
+2016-04-01 16:34:43,942 INFO  a00904362.Gis  - Starting Assignment 2
+2016-04-01 16:34:43,964 INFO  a00904362.Gis  - 2016-04-01T23:34:43.964Z
+2016-04-01 16:34:44,199 DEBUG a00904362.data.db.Database  - Loading database properties from db.properties
+2016-04-01 16:34:44,391 DEBUG a00904362.data.db.Database  - Driver loaded 
+2016-04-01 16:34:45,253 DEBUG a00904362.data.db.Database  - Database connected Microsoft SQL Server
+2016-04-01 16:34:45,392 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.PlayerDao
+2016-04-01 16:34:45,463 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.PersonaDao
+2016-04-01 16:34:45,492 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.GameDao
+2016-04-01 16:34:45,536 INFO  a00904362.data.dao.Dao  - Starting class a00904362.data.dao.ScoreDao
+2016-04-01 16:34:46,092 DEBUG a00904362.data.io.PlayerReader  - Z:\GIT\2613Assignment1\A00904362Gis2\players.dat
+2016-04-01 16:34:46,252 INFO  a00904362.data.dao.Dao  - Table A00904362_Player created 
+2016-04-01 16:34:46,653 DEBUG a00904362.data.io.GameReader  - Z:\GIT\2613Assignment1\A00904362Gis2\games.dat
+2016-04-01 16:34:46,738 INFO  a00904362.data.dao.Dao  - Table A00904362_Game created 
+2016-04-01 16:34:47,018 DEBUG a00904362.data.Score  - Z:\GIT\2613Assignment1\A00904362Gis2\scores.dat
+2016-04-01 16:34:47,052 INFO  a00904362.data.dao.Dao  - Table A00904362_Score created 
+2016-04-01 16:34:48,498 DEBUG a00904362.data.io.PersonaReader  - Z:\GIT\2613Assignment1\A00904362Gis2\personas.dat
+2016-04-01 16:34:48,580 INFO  a00904362.data.dao.Dao  - Table A00904362_Persona created 
+2016-04-01 16:34:49,162 DEBUG a00904362.Gis  - gametags- [CastleRock, Cirronith, Crayonbreath, Deathstar, GreenPanda, Ithroeann, Mazzzap, Quinesia, Redstripe, TorpedoBear, VolcanoBrawler]
+2016-04-01 16:34:49,209 DEBUG a00904362.Gis  - Result [persona_id=6, game_id=QUFI, gameName=Quick Fingers, gameTag=Crayonbreath, platform=PS, win=1, loss=0, total=1, scorestr=1:0player_id=3]
+2016-04-01 16:34:49,211 DEBUG a00904362.Gis  - Result [persona_id=9, game_id=QUFI, gameName=Quick Fingers, gameTag=CastleRock, platform=XB, win=0, loss=1, total=1, scorestr=0:1player_id=5]
+2016-04-01 16:34:49,212 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=QUFI, gameName=Quick Fingers, gameTag=VolcanoBrawler, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 16:34:49,212 DEBUG a00904362.Gis  - Result [persona_id=3, game_id=QUFI, gameName=Quick Fingers, gameTag=Deathstar, platform=IO, win=2, loss=1, total=3, scorestr=2:1player_id=1]
+2016-04-01 16:34:49,214 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=QUFI, gameName=Quick Fingers, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 16:34:49,215 DEBUG a00904362.Gis  - Result [persona_id=2, game_id=CODE, gameName=Colour Demon, gameTag=Cirronith, platform=PS, win=2, loss=0, total=2, scorestr=2:0player_id=1]
+2016-04-01 16:34:49,216 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=QUFI, gameName=Quick Fingers, gameTag=Mazzzap, platform=AN, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 16:34:49,217 DEBUG a00904362.Gis  - Result [persona_id=1, game_id=QUFI, gameName=Quick Fingers, gameTag=Ithroeann, platform=IO, win=1, loss=1, total=2, scorestr=1:1player_id=1]
+2016-04-01 16:34:49,218 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=CODE, gameName=Colour Demon, gameTag=VolcanoBrawler, platform=PC, win=0, loss=1, total=1, scorestr=0:1player_id=4]
+2016-04-01 16:34:49,219 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=CODE, gameName=Colour Demon, gameTag=Redstripe, platform=PC, win=1, loss=1, total=2, scorestr=1:1player_id=2]
+2016-04-01 16:34:49,220 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=CODE, gameName=Colour Demon, gameTag=Mazzzap, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 16:34:49,221 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=CODE, gameName=Colour Demon, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 16:34:49,221 DEBUG a00904362.Gis  - Result [persona_id=5, game_id=NUPI, gameName=Number Picker, gameTag=Redstripe, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=2]
+2016-04-01 16:34:49,223 DEBUG a00904362.Gis  - Result [persona_id=4, game_id=NUPI, gameName=Number Picker, gameTag=Mazzzap, platform=AN, win=0, loss=1, total=1, scorestr=0:1player_id=2]
+2016-04-01 16:34:49,257 DEBUG a00904362.Gis  - Result [persona_id=10, game_id=NUPI, gameName=Number Picker, gameTag=TorpedoBear, platform=PC, win=1, loss=0, total=1, scorestr=1:0player_id=5]
+2016-04-01 16:34:49,258 DEBUG a00904362.Gis  - Result [persona_id=8, game_id=NUPI, gameName=Number Picker, gameTag=VolcanoBrawler, platform=PC, win=0, loss=2, total=2, scorestr=0:2player_id=4]
+2016-04-01 16:34:49,260 DEBUG a00904362.Gis  - Result [persona_id=7, game_id=NUPI, gameName=Number Picker, gameTag=Quinesia, platform=XB, win=1, loss=0, total=1, scorestr=1:0player_id=4]
+2016-04-01 16:34:49,261 DEBUG a00904362.Gis  - Result [persona_id=11, game_id=NUPI, gameName=Number Picker, gameTag=GreenPanda, platform=AN, win=1, loss=1, total=2, scorestr=1:1player_id=5]
+2016-04-01 16:34:49,262 DEBUG a00904362.Gis  - Initial list. Size: 18
+2016-04-01 16:34:50,030 DEBUG a00904362.ui.MainFrame  - a00904362.ui.MainFrame
+2016-04-01 16:35:34,252 INFO  a00904362.data.io.ResultsReport  - wil be filtered by null
+2016-04-01 16:35:56,798 INFO  a00904362.data.io.ResultsReport  - wil be filtered by Deathstar
+2016-04-01 16:36:13,158 INFO  a00904362.data.io.ResultsReport  - wil be filtered by Deathstar
+2016-04-01 16:36:16,929 INFO  a00904362.Gis  - Database closed
+2016-04-01 16:36:16,931 INFO  a00904362.Gis  - 2016-04-01T23:36:16.931Z
+2016-04-01 16:36:16,931 INFO  a00904362.Gis  - GIS2 has finished. Exit code - 0
